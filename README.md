@@ -2,19 +2,18 @@
 
 ## Principe
 
-Script python qui parse les pages htm ou html dans différents repertoire pour remplacer les balise *img* par une fonction php *image*
+Script python qui parse les pages htm ou html dans différents repertoires pour remplacer les balise *img* par une fonction php *image*
 
 Deux versions du programme :
 
-* **imghtmltag2php_norespect.py** : utilisant la bibliothèque BeautifulSoup, mais réindente la page d'origine
+* **imghtmltag2php_norespect.py** : utilisant la bibliothèque _BeautifulSoup_, mais réindente la page d'origine
 * **imghtmltag2php.py** : parse ligne à ligne et respecte le ~~caca~~ code initial de la page.
 
 ## imghtmltag2php_norespect.py
 
 Paramètre modifiable dans l'entête du script :
 
-* **target_path** : liste de répertoire à analyser : ./ pour la racine ./
-MONREPERTOIRE/ pour le repertoire
+* **target_path** : liste de répertoire à analyser : **./** pour la racine **./MONREPERTOIRE/** pour mon repertoire
 * **fileformat** : extension analysée
 
 ```python
@@ -44,3 +43,8 @@ tag_search       = '<img'
 php_fonction     = 'image'
 tag_attributes   = ['src', 'class', 'title', 'alt', 'width', 'height']
 ```
+
+### Remerciement
+
+* La seule personne au monde qui sera capable de lire jusqu'à la fin de ce readme
+* [`Beautiful Soup`](https://code.launchpad.net/~leonardr/beautifulsoup/bs4)  :  Bibliothèque Python d'analyse syntaxique de documents HTML et XML créée par Leonard Richardson
