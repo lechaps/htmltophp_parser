@@ -44,7 +44,7 @@ php_fonction     = 'image'
 tag_attributes   = ['src', 'class', 'title', 'alt', 'width', 'height']
 ```
 
-### Remerciement
+## Remerciement
 
 * La seule personne au monde qui sera capable de lire jusqu'à la fin de ce readme
 * [`Beautiful Soup`](https://code.launchpad.net/~leonardr/beautifulsoup/bs4)  :  Bibliothèque Python d'analyse syntaxique de documents HTML et XML créée par Leonard Richardson
