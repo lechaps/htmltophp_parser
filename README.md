@@ -26,7 +26,7 @@ fileformat     = 'html'
 
 Étant donné que le parser est réalisé à la main, et par sousci de délai, les contraintes suivantes doivent être connu avant de prendre possession ~~du bolide~~ de l'outil :
 
-1. Ne traite pas les multis attributs identique (ne prend que le premièr valeur) et les valeurs d'attributs étant des noms d'attributs
+1. Ne traite pas les multis attributs identiques (ne prend que la première valeur) et les valeurs d'attributs étant des noms d'attributs
 2. Les attributs déclarés avec **'** (les attributs sont considérés comme étant déclarés avec **"** uniquement)
 
 Paramètre modifiable dans l'entête du script :
@@ -34,7 +34,7 @@ Paramètre modifiable dans l'entête du script :
 * **paths** : liste de répertoire à analyser : ./ pour la racine ./MONREPERTOIRE/ pour le repertoire
 * **extensions** : lites des extensions analysées
 * **tag_search** : balise étudiée (écrite en minuscule)
-* **php_fonction** : fonction php
+* **php_fonction** : fonction php crée
 * **tag_attributes** : liste des attributs analysées dans la balise étudiée
 
 ```python
