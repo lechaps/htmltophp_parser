@@ -27,6 +27,7 @@ fileformat     = 'html'
 
 1. Ne traite pas les multis attributs identiques (ne prend que la première valeur) et les valeurs d'attributs étant des noms d'attributs
 2. Les attributs déclarés avec **'** (les attributs sont considérés comme étant déclarés avec **"** uniquement)
+3. Le code HTML est entièrement en minuscule
 
 Paramètre modifiable dans l'entête du script :
 
