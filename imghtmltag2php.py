@@ -31,7 +31,7 @@ for path in paths:
                 # P O U R   T O U T E S   L E S   L I G N E S   D U   F I C H I E R 
                 for line in stream: 
                     line_number+=1  
-                    read = line.lower()     #le contenu est minisculé (ok, le mot n'existe pas mais on se comprend!)                                
+                    read = line    #le contenu est minisculé (ok, le mot n'existe pas mais on se comprend!)                                
                     write= ''
                     tag  = ''
                     # R E C H E R C H E  D E   L A   P R E S E N C E   D E   P L U S I E U R S   T A G   D A N S   L A   L I G N E
