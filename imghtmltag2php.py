@@ -51,7 +51,7 @@ for path in paths:
                                 except:
                                     php_str+='null, '
                             php_str=php_str[:len(php_str)-2]    #construction de la fonction php
-                            php_str+=') ?>'                 
+                            php_str+='); ?>'                 
                             write = write+before+php_str    #construction de la ligne écrite dans le fichier
                         except:
                             write = write+read               #construction de la ligne écrite dans le fichier
